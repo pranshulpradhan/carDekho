@@ -23,6 +23,8 @@ html {
 }
 .header .topheader{
     padding: 14px;
+    padding-left: 7vw;
+    padding-right: 7vw;
 }
 .logorow{
     display: flex;
@@ -99,7 +101,7 @@ html {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 0 0 8px 0;
+    padding: 0 0 8px 5vw;
     font-size: 14px;
 }
 .categories{
