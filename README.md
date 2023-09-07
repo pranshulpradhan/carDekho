@@ -37,24 +37,6 @@ Disclaimer:
 <img width="419" alt="image" src="https://github.com/pranshulpradhan/carDekho/assets/139995434/1ca115ca-ed2b-4ab8-981b-b9e9ddc9844f">
 Footer responsive changed:
 <img width="423" alt="image" src="https://github.com/pranshulpradhan/carDekho/assets/139995434/fd0eb4b8-a6af-4b71-b874-253252232640">
-<img width="428" alt="image" src="https://github.com/pranshulpradhan/carDekho/assets/139995434/64c17ba5-fac6-4fc4-b53e-db30deb23733">
-<img width="428" alt="image" src="https://github.com/pranshulpradhan/carDekho/assets/139995434/24c79cb0-b416-4f99-89af-03a76c97935a">
-<img width="426" alt="image" src="https://github.com/pranshulpradhan/carDekho/assets/139995434/ebec8429-7ca1-4bd2-821a-6eeec7f0cbe2">
-Scroller coming in responsive to see all cards:
-<img width="433" alt="image" src="https://github.com/pranshulpradhan/carDekho/assets/139995434/542c9df8-7422-4047-bad1-fe2b2b9844b3">
-<img width="433" alt="image" src="https://github.com/pranshulpradhan/carDekho/assets/139995434/3a2ad9b2-5da8-4039-ad83-da5569a531a8">
-<img width="428" alt="image" src="https://github.com/pranshulpradhan/carDekho/assets/139995434/5d720661-0780-4fd8-80bc-7a262a79dd38">
-<img width="428" alt="image" src="https://github.com/pranshulpradhan/carDekho/assets/139995434/bfe1a542-447f-4333-bcd7-f326516a6e75">
-<img width="428" alt="image" src="https://github.com/pranshulpradhan/carDekho/assets/139995434/bb1a2f79-04e6-4a17-9272-de0cd7fcc640">
-Right cards shifted down with responsive:
-<img width="431" alt="image" src="https://github.com/pranshulpradhan/carDekho/assets/139995434/e8180052-185b-430b-8381-7d76e8dbb8bf">
-<img width="429" alt="image" src="https://github.com/pranshulpradhan/carDekho/assets/139995434/f694da83-7e08-48f6-b8ae-809b96457a74">
-<img width="430" alt="image" src="https://github.com/pranshulpradhan/carDekho/assets/139995434/dc2d07c9-5b63-4ac7-882a-4e33925ec5c0">
-Disclaimer:
-<img width="430" alt="image" src="https://github.com/pranshulpradhan/carDekho/assets/139995434/157af590-98a4-4baf-9d7d-57dc3c35df54">
-Footer changed according to responsive:
-<img width="426" alt="image" src="https://github.com/pranshulpradhan/carDekho/assets/139995434/041ed7c1-5d1f-4d0e-988a-2830b4a7059e">
-
 
 
 
