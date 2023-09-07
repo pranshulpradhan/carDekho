@@ -547,13 +547,9 @@ button, input {
     color: #fff;
 }
 
-article, aside, details, figcaption, figure, footer, header, main, menu, nav, section, summary {
+footer, header, nav, section {
     display: block;
 }
-
-/* .row1 {
-    width: 70%;
-} */
 
 
 /* amount details  */
