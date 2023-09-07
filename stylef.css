@@ -713,6 +713,11 @@ article, aside, details, figcaption, figure, footer, header, main, menu, nav, se
     border-bottom: 1px solid rgba(36,39,44,.1);
 }
 
+.toggleAccordion{
+    justify-content: space-between;
+    position:relative
+}
+
 .accordion {
     display: inline-block;
     width: 100%;
