@@ -1097,6 +1097,10 @@ a img, img {
     padding: 15px 20px 20px;
 }
 
+.gs_readmore{
+    overflow: hidden;
+}
+
 /* FOOTER PART  */
 .footer{
     display: flex;
