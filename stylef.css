@@ -167,7 +167,7 @@ h1 {
 }
 
 .cd_container{
-    max-width: 1280px;
+    max-width: 1350px;
     width: 98%;
     padding-left: 10px;
     padding-right: 10px;
@@ -714,6 +714,7 @@ article, aside, details, figcaption, figure, footer, header, main, menu, nav, se
 }
 
 .toggleAccordion{
+    /* display: flex; */
     justify-content: space-between;
     position:relative
 }
@@ -850,7 +851,8 @@ padding: 5px 10px 10px;
 
 .card_Right {
     display: flex;
-    justify-content: space-evenly;
+    padding-left: 10px;
+    gap: 1rem;
 }
 
 /* .card img {
@@ -895,12 +897,14 @@ a img, img {
 }
 
 .feature_tag1{
-   
-    display: flex;
+    width: auto;  
+    /* overflow-x: scroll; */
+  gap:2vw;
+  display: flex;
   justify-content: space-between;
-   margin-top: 3vh;
+   margin-top: 3vh; 
+ }
 
-}
 .tag1{
    
     height: 50vh;
@@ -954,13 +958,7 @@ a img, img {
     .rightCar{
         width: 50%;
     }
-    .feature_tag1{
-    width: auto;  
-    overflow-x: scroll;
-  gap:2vw;
-  
-    
- }
+
  .tag1{
     background-color: white;
     height: auto;
@@ -1048,4 +1046,80 @@ a img, img {
     border-radius: 2px;
     box-shadow: 0 1px 3px rgba(36,39,44,.15);
     padding: 15px 20px 20px;
+}
+
+/* FOOTER PART  */
+.footer{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+  
+   margin-top: 8vh;
+ 
+}
+.footer .first_div{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3vw;
+    padding-right: 1vw;
+}
+.footer .first_div p{
+    color: gray;
+    margin-top: 1vh;
+}
+ .first_div .first1{
+    display: flex;
+    align-items: center;
+}
+.first1 span{
+    font-size: 50px;
+}
+.footer .sec_div{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    border-top: 1px solid  lightgray;
+    border-bottom: 1px solid  lightgray;
+    
+    margin-top: 2vw;
+    padding: 3vw 4vw 0vw 3vw;
+    
+}
+.sec_div .ul_div{
+    display: flex;
+ 
+ width: 70%;  
+ height: 60vh;
+ justify-content: space-around;
+ 
+   
+}
+.ul_div ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    line-height: 2.5rem;
+    font-size: 14px;
+    list-style: none;
+    word-spacing: 0.2rem;
+}
+.sec_div .branch{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.branch div{
+  display: flex;
+  justify-content: space-between;
+}
+.branch div span{
+   margin-right: 1vw;
+}
+.footer .third_div{
+    display: flex;
+    align-items: end;
+    justify-content: end;
+  padding: 1vw 4vw;
+    gap:3vw;
+    font-size: 25px;
 }
