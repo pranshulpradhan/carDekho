@@ -12,6 +12,10 @@ html {
 }
 
 /* header */
+@media screen and (min-width: 551px){
+    .responsive_nav{
+        display: none;
+    }
 .header{
     background: #fff;
     position: sticky;
@@ -142,6 +146,67 @@ html {
 #main-body{
     padding-top: 60px;
 }
+}
+
+/* responsive header  */
+@media screen and (max-width: 550px){
+    .responsive_nav{
+        display: none;
+    }
+    .header{
+        display: none;
+    }
+.responsive_nav{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-left: 3vw;
+}
+.nav_div1{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 10vw;
+    padding-left: 3vw;
+   padding-top: 2vw;
+    align-items: center;
+}
+.nav_div1p{
+    display: flex;
+   
+    
+    justify-content: space-between;
+    align-items: center;
+   
+}
+.nav_div1p img{
+   width:25vw;
+}
+.nav_div1 span{
+    font-size: 30px;
+    color: gray;
+}
+.navs_div2{
+    margin-top: 1vw;
+    width: 100%;
+   padding-left: 3vw;
+   padding-right: 10vw;
+   position: relative;
+}
+.navs_div2 input{
+    width: 95%;
+    border-radius: 1.5rem;
+    height: 7vh;
+    background-color: rgba(221, 218, 218, 0.329);
+    border: none; 
+    padding-left: 8vw;
+   position: relative;
+}
+.navs_div2 span{
+    position: absolute;
+    left: 5vw;
+   bottom: 2vw;
+}
+}
 /* nav-end */
 
 
@@ -210,11 +275,6 @@ h1 {
         margin-right: -10px;
         justify-content: space-evenly;
     }
-    /* .rows {
-        margin-left: -10px;
-        margin-right: -10px;
-        justify-content: space-evenly;
-    } */
     .row1 {
         width: 100%;
     }
@@ -400,21 +460,6 @@ ul {
    display: inline;
 }
 
-/* loanRadio */
-/* @media screen and (min-width: 1000px) */
-/* .emiCalculate .emiInner .loanPeriod {
-    margin-top: 17px;
-} */
-
-.emiCalculate .emiInner .loanPeriod {
-    margin-top: 6px;
-}
-
-/* @media screen and (min-width: 1000px) */
-/* .emiCalculate .emiInner .loanPeriod>span {
-    margin-bottom: 10px;
-} */
-
 .emiCalculate .emiInner .loanPeriod>span {
     display: block;
     margin-bottom: 8px;
@@ -449,10 +494,6 @@ ul {
     border-left: 1px solid rgba(36,39,44,.7);
 } 
 
-/* @media screen and (min-width: 768px) */
-/* .emiCalculate .emiInner .loanPeriod li {
-    width: 7.28%;
-} */
 
 .emiCalculateSlider .emiInner .loanPeriod li .loan_Buttons {
     height: 38px;
@@ -988,19 +1029,7 @@ a img, img {
     width:250px;
 }
 
-/* hr{
-    margin-top: 3vh;
- } */
- /* @media (max-width:900px) { */
-    /* .section2{
-        margin-bottom: 10vw;
-        margin-left: 0px;
-     width: 100%;
-     box-shadow: 0 3px 3px rgba(36,39,44,.15);
-        scrollbar-color:blue;
-        background: #fff;
-        padding-bottom: 20vh;
-    } */
+
     .section2 ul{
         width:100%;
     }
